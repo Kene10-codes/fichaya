@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '..//..//components/Navbar'
 import BgColor from '..//common/BgColor'
-import { HeadStyles, InvoiceStyles } from './Invoice'
+import { HeadStyles, InvoiceStyles, ButtonStyles } from './Invoice'
 
 const Invoice = () => {
     return (
@@ -88,6 +88,7 @@ const Invoice = () => {
                      </div>
 
                      {/* buttons */}
+                     <ButtonStyles >
                       <div className="row mt-3">
                         <div className="col col-sm-6">
                          <button type="button" className="btn cancel-btn">Cancel</button>
@@ -96,6 +97,7 @@ const Invoice = () => {
                          <button type="button">create invoice</button>
                         </div>
                       </div>
+                      </ButtonStyles>
                  </div>
              </div>
              </InvoiceStyles>
