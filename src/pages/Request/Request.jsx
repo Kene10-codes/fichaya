@@ -19,7 +19,7 @@ const Request = () => {
               </div>
 
                <div className="row">
-                   <div className="col col-sm-7">   
+                   <div className="col col-sm-8">   
                        <div className="card">
                         <div className="card-body">
                         <table className="table table-light">
