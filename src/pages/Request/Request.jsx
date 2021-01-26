@@ -23,7 +23,7 @@ const Request = () => {
                    <div className="col col-sm-8">   
                        <div className="card">
                         <div className="card-body">
-                        <table className="table table-light">
+                        <table className="table table-light table-responsive-sm">
                         <thead>
                             <tr>
                             <th scope="col">Request Type <br/>

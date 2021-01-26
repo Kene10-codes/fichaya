@@ -24,21 +24,21 @@ const Invoice = () => {
                          <form action="">
                             <div className="form-row form-group">
                                 <label htmlFor="customer-name">Customer/Company Name</label>
-                                <input type="text" className="form-control" placeholder="Spleet Limited"/>
+                                <input type="text" className="form-control" id="companyName" placeholder="Spleet Limited"/>
                            </div>
                            <div className="form-row form-group">
                             <div class="col">
                              <label htmlFor="email">Email Address</label>
-                             <input type="text" className="form-control" placeholder="info@spleet.ng"/>
+                             <input type="text" className="form-control" id="email" placeholder="info@spleet.ng"/>
                             </div>
                             <div className="col">
                             <label htmlFor="phone">Phone Number</label>
-                            <input type="text" className="form-control" placeholder="081-6879-414"/>
+                            <input type="text" className="form-control" id="phone" placeholder="081-6879-414"/>
                             </div>
                            </div>
                            <div className="form-row form-group">
                             <label htmlFor="home-address">Home/Building Address</label>
-                            <input type="text" className="form-control" placeholder="51, Iwaya, Road, Iwaya"/>
+                            <input type="text" className="form-control" id="address" placeholder="51, Iwaya, Road, Iwaya"/>
                            </div>
                          </form>
                      </div>
@@ -49,17 +49,17 @@ const Invoice = () => {
                            <div className="form-row form-group">
                                <div className="col">
                                 <label htmlFor="issue-date">Issue Date</label><br/>
-                                <input type="date" className="form-control" placeholder="6/10/2020"/>
+                                <input type="date" className="form-control" id="issueDate" placeholder="6/10/2020"/>
                                </div> 
                                <div className="col">
                                 <label htmlFor="date-due">Due date</label>
-                                <input type="date" className="form-control" placeholder="08/12/20"/>
+                                <input type="date" className="form-control" id="dueDate" placeholder="08/12/20"/>
                                </div>
                            </div>
                            <div className="form-row form-group">
                                <div className="col">
                                 <label htmlFor="invoice-number">Invoice Number</label>
-                                <input type="text" className="form-control" placeholder="000000001"/>
+                                <input type="text" className="form-control" id="invoiceNumber" placeholder="000000001"/>
                                </div>  
                                <div className="col">
                                 <label className="mr-sm-2" htmlFor="Vat">V.A.T%</label>
@@ -73,15 +73,15 @@ const Invoice = () => {
                               </div>
                            </div>
                            <label htmlFor="service-description">Service Description</label>
-                           <input type="text" className="form-control" placeholder="5 Bedroom Duplex post-con cleaning"/>
+                           <input type="text" className="form-control" id="serviceDescription" placeholder="5 Bedroom Duplex post-con cleaning"/>
                           <div className="form-row form-group"> 
                             <div className="col">
                              <label htmlFor="service-amount">Service amount</label>
-                              <input type="text" className="form-control"  placeholder="NGN 45, 000"/>
+                              <input type="text" className="form-control" id="serviceAmount" placeholder="NGN 45, 000"/>
                            </div>
                            <div className="col">
                            <label htmlFor="total-amount">Total amount</label>
-                           <input type="text" className="form-control" placeholder="NGN 45, 000"/>
+                           <input type="text" className="form-control" id="totalAmount" placeholder="NGN 45, 000"/>
                            </div>
                            </div>
                          </form>

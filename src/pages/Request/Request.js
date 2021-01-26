@@ -20,8 +20,7 @@ h1 {
 .card {
     border: 1px solid #EDEDED;
     border-radius: 10px;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 table tr th {
