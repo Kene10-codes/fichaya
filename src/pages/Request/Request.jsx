@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import BgColor from '../common/BgColor'
 import caretDown from '..//..//components/assets/caret-down.svg'
+import { Link } from 'react-router-dom'
 import { RequestPageStyles } from './Request'
 
 
@@ -69,10 +70,9 @@ const Request = () => {
                               <div className="modal-dialog" role="document">
                                 <div className="modal-content">
                                   <div className="modal-header">
-                                    <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <Link type="button" className="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">&times;</span>
-                                    </button>
+                                    </Link>
                                   </div>
                                   <div class="modal-body">
                                     <p>Contact customer</p>
