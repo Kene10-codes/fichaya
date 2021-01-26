@@ -1,5 +1,5 @@
 
-## [Test Link!](https://fichaya-livid.vercel.app/invoice)
+## [Test Link!](https://fichaya-livid.vercel.app/)
 
 # Getting Started with Create React App
 
