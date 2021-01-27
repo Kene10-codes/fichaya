@@ -4,18 +4,29 @@ import fichayaLogo from './assets/fichaya_logo.svg'
 import personIcon from './assets/person.svg'
 import caretDown from './assets/caret-down.svg'
 import bellIcon from './assets/bell-fill.svg'
+import bars from './assets/bars-solid.svg'
 import { NavbarStyles } from './NavbarStyles'
 
 const Navbar = () => (
    <NavbarStyles>
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
+      <button 
+      className="navbar-toggler" 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarToggler" 
+      aria-controls="navbarToggler" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation"
+      >
+      <span>
+        <img src={bars} alt="toggler icon" width="20px"/>
+      </span>
+       </button>
           <Link className="navbar-brand" to="/">
            <img src={fichayaLogo} alt="Fichaya Logo" />
-          </Link>
-           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-             <span className="navbar-toggler-icon"></span>
-           </button>
+          </Link> 
              <div className="collapse navbar-collapse" id="navbarToggler">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">     
                <li className="nav-item">
