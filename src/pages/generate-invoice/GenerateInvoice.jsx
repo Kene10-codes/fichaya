@@ -73,7 +73,6 @@ const GenerateInvoice = () => {
                                     <td>unit amount</td>
                                     <td>amount</td>
                                 </tr>
-                                
                                  <tr>
                                      <td>5-Bedroom Duplex <br/>
                                      <span>post-con cleaning</span></td>

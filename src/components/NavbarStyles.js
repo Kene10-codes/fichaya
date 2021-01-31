@@ -32,6 +32,7 @@ export const NavbarStyles  = styled.div`
 .nav-profile img{
     filter: brightness(0) invert(1);
 }
+
 `
 
 
